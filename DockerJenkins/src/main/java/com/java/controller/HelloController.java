@@ -9,7 +9,7 @@ public class HelloController {
 	@RequestMapping("/messages")
 	public String welcome()
 	{
-		return "welcome to Docker using Jenkins";
+		return "welcome to Docker using Jenkins ... ";
 	}
 
 }
